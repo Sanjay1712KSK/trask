@@ -1,0 +1,6 @@
+Both algorithms calculate the same sum, but the green algorithm achieves the result with far fewer computational operations
+Our task is very simple: calculate the sum of all integers from 1 to N. For example, if N is 5, the answer is 1+2+3+4+5 = 15
+The red algorithm uses repeated addition. It starts from zero and adds every number one by one
+As N increases, the amount of work increases linearly. If I make N 10 times larger, the algorithm has roughly 10 times more iterations
+Instead of performing N additions, the green algorithm uses the mathematical property of the series and calculates the answer directly using one formula
+The input size changes, but the green algorithm requires essentially the same fixed number of arithmetic operations
