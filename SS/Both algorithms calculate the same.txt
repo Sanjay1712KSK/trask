@@ -4,3 +4,5 @@ The red algorithm uses repeated addition. It starts from zero and adds every num
 As N increases, the amount of work increases linearly. If I make N 10 times larger, the algorithm has roughly 10 times more iterations
 Instead of performing N additions, the green algorithm uses the mathematical property of the series and calculates the answer directly using one formula
 The input size changes, but the green algorithm requires essentially the same fixed number of arithmetic operations
+The green algorithm reduces computational work. Fewer iterations mean fewer CPU instructions and less processor activity. Therefore, it has the potential to reduce computation time and energy consumption
+This experiment demonstrates that green computing isn't only about hardware or reducing electricity consumption. Algorithm selection also matters. By replacing an O(N) repeated computation with an O(1) mathematical solution, we can dramatically reduce computational work while producing exactly the same result.
